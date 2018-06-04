@@ -15,7 +15,7 @@ export const calcReducer = (state = calcState, action) => {
         else str = state.value;
     } else if (state.value === '-') {
         if (action.text === '+') str = 0
-        else if (firstOper.indexOf(action.text) < 0) str = action.text
+        else if (firstOper.indexOf(action.text) < 0) str = state.value + action.text
         else state.value
     } else {
         if (notToOper.indexOf(action.text) >= 0) {
