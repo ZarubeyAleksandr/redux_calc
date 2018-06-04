@@ -1,0 +1,12 @@
+.display {
+	background-color: #999999;
+	box-sizing: border-box;
+	color: #ffffff;
+	font-size: 50px;
+	font-weight: lighter;
+	height: 80px;
+	padding: 20px 15px 5px 0;
+	position: relative;
+	text-align: right;
+	width: 100%;
+}
